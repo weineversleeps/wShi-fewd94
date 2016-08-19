@@ -1,0 +1,40 @@
+#greybox {
+  background-color: #dedede;
+  padding: 10px;
+  margin: 20px;
+}
+
+#heading p {
+  color: white;
+  background-color: black;
+  padding: 8px;
+  text-align: center;
+  margin: 10px;
+}
+
+#heading {
+  margin-bottom: 25px;
+}
+
+.lorem{
+  background-color: #ff6347;
+  border: 5px;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+#firstparagraph p{
+  color: blue;
+}
+
+
+
+#secondparagraph p{
+  color: green;
+}
+
+
+#thirdparagraph p{
+  color: yellow;
+}
