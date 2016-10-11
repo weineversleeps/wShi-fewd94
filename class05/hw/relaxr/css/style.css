@@ -1,0 +1,167 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #000;
+  font-size: 30px;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto; 
+}
+
+.articles, .categories {
+  float: left;
+  display: block;
+}
+
+.articles {
+  width: 70%
+}
+
+.categories {
+  width: 25%;
+  background-color: white;
+  float: right;
+}
+
+.categories a {
+  display: block;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+  /*width: 960px;*/
+  margin: 0 auto;
+}
+
+header .container {
+  /*width: 960px;*/
+  margin: 0 auto;
+  width: 80%;
+}
+
+header {
+  background-color: #033048;
+  padding: 25px 0;
+  overflow: hidden;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+header .logo {
+  color: #ffffff;
+  float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 15px;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0 0 0 40px;
+  font-size: 24px;
+}
+
+#main {
+  margin-top: 80px;
+  width: 70%;
+  float: left;
+}
+
+main p {
+  font size: 14px;
+}
+
+
+footer {
+  width: 100%;
+  clear: both;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+button {
+  width: 200px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+#footerdiv {
+  background-color: yellow;
+  /*height: 120px;*/
+  padding: 30px;
+}
+
+#footerlogo {
+  color: yellow;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+footer img {
+  display: inline-block;
+  margin: 20px;
+
+}
+
+footer p {
+  font-size: 12px;
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
